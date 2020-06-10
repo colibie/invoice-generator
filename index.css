@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+}
+
+#print {
+  font-family: "sans-serif";
+  font-size: 14px;
+  color: #2e2e2e;
+  margin: 5px 50px 0 20px;
+  padding-right: 3%;
+  width: 842px;
+}
+
+.company-name, .company-name-orange {
+  font-size:270%; 
+  width: 47%; 
+  background-color: #191971e3;
+  color: white; 
+  padding: 2%;  
+  display:inline-block
+}
+
+.company-name {
+  margin-right: 6%;
+}
+
+.company-name-orange {
+  background-color: #ee9120;
+}
+
+.short-spacer {
+  width:13.5%; 
+  height:100%; 
+  display:inline-block;
+  margin-right: 1%;
+}
+.border-red {
+  border: 1px solid red;
+}
+.title {
+  color: #191971e3;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.d-ib {
+  display: inline-block;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-70 {
+  width: 70%;
+}
+.w-20 {
+  width: 20%;
+}
+.w-80 {
+  width: 79.5%;
+}
+
+.w-50 {
+  width: 50%;
+  margin: 0;
+  display: inline-block;
+}
+
+.w-30 {
+  width: 29%;
+}
+
+.m-right {
+  margin-right: 8px;
+}
+
+.table {
+  border: 2px solid darkblue;
+  text-align: left;
+  margin-bottom: 5px;
+}
+
+.col-1{
+  border-right: 2px solid #191971e3;
+}
+.th {
+  padding: 2px 10px 2px 7px;
+  background: #dd930c91;
+  color: #191971e3;
+  font-weight: bold;
+}
+.h {
+  padding: 1%;
+  margin: 0;
+}
+.td {
+  padding: 3px 1px 0px 2px;
+  margin-bottom: 0;
+  word-wrap: break-word;
+  font-size: 12px;
+}
+
+.spacer {
+  height: 10px;
+  background-color: #dd930c91;
+  margin-bottom: 5px;
+}
+header {
+  font-weight: bold;
+}
+.number {
+  padding: 1%;
+  color: white;
+  background-color: #191971e3;
+  float: left;
+  border-right: 3px solid white;
+  margin-right: 2%;
+}
+.black {
+  color: #4e4e4e;
+}
+.blue {
+  color: #191971e3;
+}
+
+.p-b-20 {
+  padding-bottom: 10px;
+}
+.p-b-50 {
+  padding-bottom: 8%;
+}
+.f-left {
+  float: left;
+}
+.f-right {
+  float: right;
+}
+.top-row {
+  margin-bottom: 5px;
+  border-bottom: 3px solid #191971e3;
+}
+.authenticate {
+  border-top: 2px solid #2e2e2e; 
+  text-align:center; 
+  width: 70%; 
+  margin: 25% auto 10%;
+}
+.agreement {
+  background-color: rgba(30, 30, 226, 0.349); 
+  color: rgb(1, 1, 102); 
+  padding: 1.5%;
+  font-size: 10px;
+}
+
+.invoice-container {
+  background-color: #FAFAFA;
+  font-size: 100%;
+  padding-top: 3%;
+}
+
+.invoice-card {
+  max-width: 700px;
+  min-height: auto;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 7% auto;
+  padding: 20px 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 0px 1px #191971e3, 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.invoice-content {
+  margin: 20px 10px;
+  padding-bottom: 60px;
+  color: #191971e3;
+}
+
+.invoice-first {
+  text-align: center;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.2);
+  color: #000000;
+}
+
+.invoice-form {
+  margin-top: 10px;
+}
+
+.invoice-data {
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+  padding: 4px;
+  padding-left: 6px;
+  width: 100%;
+  margin-bottom: 2%;
+}
+
+.invoice-form button {
+  color: white;
+  background-color: #dd930c91;
+  border: none !important;
+  margin-top: 5%;
+  font-weight: bold;
+  padding: 1.3%;
+}
+
+.invoice-form button:hover {
+  background-color: #191971e3;
+
+}
+
+.invoice-form button:active {
+  outline: none !important;
+  box-shadow: inset 2px 2px 2px white;
+}
+
+.invoice-h4 {
+  text-align: center;
+  font-variant: small-caps;
+}
+
+.invoice-label {
+  margin-bottom: 0;
+  margin-top: 3%;
+}
+
+input::placeholder, .datetime-input-edit-wrapper {
+  color: #82796e;
+  font-size: 90%;
+}
+
+input[type="checkbox"] {
+  cursor: pointer;
+  -webkit-appearance: none;
+  appearance: none;
+  background: white;
+  border: 1px solid #ee9120;
+  border-radius: 1px;
+  position: relative;
+  box-sizing: content-box;
+  width: 10px;
+  height: 10px;
+  margin: 0 2px;
+}
+
+input[type="checkbox"] {
+  vertical-align: bottom;
+  margin: 2px;
+}
+
+input[type="checkbox"]:checked:after {
+  content: '✔';
+  position: relative;
+  top: -7px;
+  font-size: 18px;
+  color: #191971e3;
+}
+hr {
+  border: 0.5px solid #0000001a;
+  margin-top: 6%;
+}
